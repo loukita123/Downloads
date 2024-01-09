@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1a1a1a; /* Dark background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Slightly larger font size */
+  color: #ffcc00; /* Yellow text color */
+}
+
+.App-link {
+  color: #4caf50; /* Green link color */
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #333; /* Darker background color */
+  color: #ddd; /* Light text color */
+}
+
+.container {
+  padding: 0 15px; /* Slightly increased padding */
+}
+
+.title {
+  color: black; /* Blue title color */
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px; /* Increased padding */
+  color: #fff; /* White text color */
+  background-color: #e91e63; /* Pink background color */
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #ff4081; /* Lighter pink on hover */
+}
+
+.column {
+  float: left;
+  width: 30%; /* Adjusted width */
+  margin-bottom: 20px; /* Increased margin */
+  padding: 0 10px; /* Adjusted padding */
+}
+
+.card {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3); /* Slightly modified box-shadow */
+  margin: 12px; /* Adjusted margin */
+}
+
+.bg-image {
+  background-image: url('/Users/loukitakumari/Downloads/Ipo-Tracker-Web-master/public/images/Blog-1-image-scaled.jpg'); /* Different background image */
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px; /* Increased padding */
+  margin-top: -30px; /* Adjusted margin-top */
+}
+
+.image {
+  width: 120px; /* Increased image size */
+  height: 120px; /* Increased image size */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+    margin-bottom: 15px; /* Adjusted margin */
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 90%; /* Adjusted width */
+  }
+}
